@@ -1,0 +1,70 @@
+#otvet{
+    display: none;
+}
+body{
+    background: #eee;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+pre{
+    margin: 20px auto;
+    width: 1000px;
+    padding: 25px;
+    background: #dbc7af;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+input[type = "number"]{
+    width: 40px;
+    text-align: right;
+}
+
+input[type="button"]{
+    background: #009f00;
+    border: none;
+    padding: 10x 35px;
+    font-size: 20px;
+    color: #ffff;
+    border-radius: 6px;
+}
+
+input[type="button"]:hover{
+    opacity: 0.8;
+}
+#table tbody tr:nth-child(odd){
+	background: #fff;
+}
+
+#table tbody tr:nth-child(even){
+	background: #f7f7f724;
+}
+table {
+    font-family: sans-serif;
+    text-align: left;
+    border-collapse: separate ;
+    border-spacing: 5px;
+    background: #ece9e0;
+    color:#656665;
+    border: 16px solid #ece9e0;
+    border-radius: 20px;
+   font-size: 14px;
+   border: 1px solid black;
+ }
+   th{
+         font-size: 18px;
+         padding: 10px;  
+   
+    }
+    td{
+
+       padding:10px;
+   
+    }  
+
+#myCan {
+       pointer-events: none;
+}
